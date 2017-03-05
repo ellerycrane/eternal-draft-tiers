@@ -28,25 +28,50 @@ const ranks = [
 
 class SearchBar extends React.Component {
   constructor(props) {
-    super(props);
-    this.handleFilterTextInputChange = this.handleFilterTextInputChange.bind(this);
+    super(props)
+    this.handleFilterTextInputChange = this.handleFilterTextInputChange.bind(this)
   }
 
   handleFilterTextInputChange(e) {
-    this.props.onFilterTextInput(e.target.value);
+    this.props.onFilterTextInput(e.target.value)
+  }
+
+  handleKeyPress(e){
+    if(e.key == 'Escape'){
+      // escape clears the input
+      this.props.onFilterTextInput('')
+    }
+    if (e.keyCode === 114 || (e.ctrlKey && e.keyCode === 70) || (e.metaKey && e.keyCode === 70)) {
+      // ctrl+f or cmd+f is disabled, since I keep doing it by accident
+      e.preventDefault()
+      this.props.onFilterTextInput('') // also clear the input, since usually this means I want to start typing a new card
+    }
+    this.filterInput.focus()
+  }
+
+  componentDidMount(){
+    this.filterInput.focus()
+    document.onkeydown = (evt) => {
+      evt = evt || window.event
+      this.handleKeyPress(evt)
+      // if (evt.ctrlKey && evt.keyCode == 90) {
+      //   alert("Ctrl-Z")
+      // }
+    }
   }
 
   render() {
     return (
       <form>
         <input
+          ref={(input) => { this.filterInput = input }}
           type="text"
-          placeholder="Search..."
+          placeholder="Filter cards..."
           value={this.props.filterText}
           onChange={this.handleFilterTextInputChange}
         />
       </form>
-    );
+    )
   }
 }
 
@@ -63,7 +88,7 @@ class App extends Component {
 
   componentDidMount() {
     this.gss = new GoogleSpreadsheetsParser(spreadsheetUrl, {sheetTitle: sheetTitle, hasTitle: true})
-    console.log(this.parseRanks(this.gss.columns));
+    console.log(this.parseRanks(this.gss.columns))
     let rankedCards = this.parseRanks(this.gss.columns)
     var options = {
       shouldSort: true,
@@ -77,8 +102,8 @@ class App extends Component {
       keys: [
         "cardName"
       ]
-    };
-    this.fuse = new Fuse(rankedCards, options); // "list" is the item array
+    }
+    this.fuse = new Fuse(rankedCards, options) // "list" is the item array
 
     window.GSS = this.gss
     console.log(JSON.stringify(rankedCards, null, 2))
@@ -89,7 +114,7 @@ class App extends Component {
     console.log("FILTERING with text", filterText)
     let result = this.state.rankedCards
     if (filterText && filterText !== '') {
-      result = this.fuse.search(filterText);
+      result = this.fuse.search(filterText)
     }
 
     this.setState({
@@ -121,11 +146,11 @@ class App extends Component {
 
   makeSafeForCSS(name) {
     return name.replace(/[^a-z0-9]/g, function (s) {
-      var c = s.charCodeAt(0);
-      if (c == 32) return '-';
-      if (c >= 65 && c <= 90) return '_' + s.toLowerCase();
-      return '__' + ('000' + c.toString(16)).slice(-4);
-    });
+      var c = s.charCodeAt(0)
+      if (c == 32) return '-'
+      if (c >= 65 && c <= 90) return '_' + s.toLowerCase()
+      return '__' + ('000' + c.toString(16)).slice(-4)
+    })
   }
 
 
@@ -164,12 +189,12 @@ class App extends Component {
     }
     {/*<pre>*/}
           {/*{cssData.map((d)=>{*/}
-            {/*return `.${d.className} {\nbackground-image: url("${d.imageUrl}");\n}\n\n`*/}
+            {/*return `.${d.className} {\nbackground-image: url("${d.imageUrl}")\n}\n\n`*/}
           {/*})}*/}
         {/*</pre>*/}
     // cards = []
     return (
-      <div className="App">
+      <div className="App" >
         <SearchBar
           filterText={this.state.filterText}
           onFilterTextInput={this.handleFilterTextInput.bind(this)}
