@@ -1,13 +1,12 @@
 {
-  "name": "draft-tier-filter",
+  "name": "eternal-draft-tiers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ellerycrane.github.io/fate-sheet",
+  "homepage": "https://ellerycrane.github.io/eternal-draft-tiers",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "node-sass": "^3.13.0",
-    "react-scripts": "0.7.0",
-    "@kadira/storybook": "^2.21.0"
+    "react-scripts": "0.7.0"
   },
   "dependencies": {
     "react": "^15.4.0",

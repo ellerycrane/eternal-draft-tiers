@@ -1,0 +1,160 @@
+@import 'app';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+
+/*
+A+	#57BB8A
+A	#70bf85
+A-	#8ac37f
+B+	#a4c77a
+B	#becb74
+B-	#d8cf6f
+C+	#f2d369
+C	#fed066
+C-	#fac269
+D+	#f6b46b
+D	#f2a66c
+D-	#ee986f
+F	#ea8a71
+F-	#e67c73
+*/
+
+input {
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 50%;
+  font-size:15px;
+  padding: 8px;
+  margin:20px;
+  border-radius: 6px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border: 2px solid #fff;
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.33);
+}
+
+
+$s-color: #00FF00;
+$s-hover-color:lighten(saturate($s-color, 30%), 10%);
+
+$a-plus-color: #57BB8A;
+$a-plus-hover-color: lighten(saturate($a-plus-color, 30%), 10%);
+
+$a-color: #70bf85;
+$a-hover-color: lighten(saturate($a-color, 30%), 10%);
+
+$a-minus-color: #8ac37f;
+$a-minus-hover-color: lighten(saturate($a-minus-color, 30%), 10%);
+
+$b-plus-color: #a4c77a;
+$b-plus-hover-color: lighten(saturate($b-plus-color, 30%), 10%);
+
+$b-color: #becb74;
+$b-hover-color: lighten(saturate($b-color, 30%), 10%);
+
+$b-minus-color: #d8cf6f;
+$b-minus-hover-color: lighten(saturate($b-minus-color, 30%), 10%);
+
+$c-plus-color: #f2d369;
+$c-plus-hover-color: lighten(saturate($c-plus-color, 30%), 10%);
+
+$c-color: #fed066;
+$c-hover-color: lighten(saturate($c-color, 30%), 10%);
+
+$c-minus-color: #fac269;
+$c-minus-hover-color: lighten(saturate($c-minus-color, 30%), 10%);
+
+$d-plus-color: #f6b46b;
+$d-plus-hover-color: lighten(saturate($d-plus-color, 30%), 10%);
+
+$d-color: #f2a66c;
+$d-hover-color: lighten(saturate($d-color, 30%), 10%);
+
+$d-minus-color: #ee986f;
+$d-minus-hover-color: lighten(saturate($d-minus-color, 30%), 10%);
+
+$f-color: #ea8a71;
+$f-hover-color: lighten(saturate($f-color, 30%), 10%);
+
+$f-minus-color: #e67c73;
+$f-minus-hover-color: lighten(saturate($f-minus-color, 30%), 10%);
+
+
+.card-rank {
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size: 40px;
+  line-height: 75px;
+  height: 72px;
+  width: 72px;
+  border: 5px solid;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4), inset 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20000px;
+  transition: all 0.5s;
+  user-select: none;
+  cursor: pointer;
+  transform: rotate(6deg);
+  //letter-spacing: -0.05em;
+}
+
+.card-rank.s       { background-color: $s-color;       &:hover { background-color: $s-hover-color }}
+.card-rank.a-plus  { background-color: $a-plus-color;  &:hover { background-color: $a-plus-hover-color }}
+.card-rank.a       { background-color: $a-color;       &:hover { background-color: $a-hover-color }}
+.card-rank.a-minus { background-color: $a-minus-color; &:hover { background-color: $a-minus-hover-color }}
+.card-rank.b-plus  { background-color: $b-plus-color;  &:hover { background-color: $b-plus-hover-color }}
+.card-rank.b       { background-color: $b-color;       &:hover { background-color: $b-hover-color }}
+.card-rank.b-minus { background-color: $b-minus-color; &:hover { background-color: $b-minus-hover-color }}
+.card-rank.c-plus  { background-color: $c-plus-color;  &:hover { background-color: $c-plus-hover-color }}
+.card-rank.c       { background-color: $c-color;       &:hover { background-color: $c-hover-color }}
+.card-rank.c-minus { background-color: $c-minus-color; &:hover { background-color: $c-minus-hover-color }}
+.card-rank.d-plus  { background-color: $d-plus-color;  &:hover { background-color: $d-plus-hover-color }}
+.card-rank.d       { background-color: $d-color;       &:hover { background-color: $d-hover-color }}
+.card-rank.d-minus { background-color: $d-minus-color; &:hover { background-color: $d-minus-hover-color }}
+.card-rank.f       { background-color: $f-color;       &:hover { background-color: $f-hover-color}}
+
+//.card-rank.s       { background-color: $s-hover-color }
+//.card-rank.a-plus  { background-color: $a-plus-hover-color }
+//.card-rank.a       { background-color: $a-hover-color }
+//.card-rank.a-minus { background-color: $a-minus-hover-color }
+//.card-rank.b-plus  { background-color: $b-plus-hover-color }
+//.card-rank.b       { background-color: $b-hover-color }
+//.card-rank.b-minus { background-color: $b-minus-hover-color }
+//.card-rank.c-plus  { background-color: $c-plus-hover-color }
+//.card-rank.c       { background-color: $c-hover-color }
+//.card-rank.c-minus { background-color: $c-minus-hover-color }
+//.card-rank.d-plus  { background-color: $d-plus-hover-color }
+//.card-rank.d       { background-color: $d-hover-color }
+//.card-rank.d-minus { background-color: $d-minus-hover-color }
+//.card-rank.f       { background-color: $f-hover-color}
+
+
+.card.s       { box-shadow: inset 0 0 75px $s-color;       &:hover { box-shadow: inset 0 0 75px $s-hover-color }}
+.card.a-plus  { box-shadow: inset 0 0 75px $a-plus-color;  &:hover { box-shadow: inset 0 0 75px $a-plus-hover-color }}
+.card.a       { box-shadow: inset 0 0 75px $a-color;       &:hover { box-shadow: inset 0 0 75px $a-hover-color }}
+.card.a-minus { box-shadow: inset 0 0 75px $a-minus-color; &:hover { box-shadow: inset 0 0 75px $a-minus-hover-color }}
+.card.b-plus  { box-shadow: inset 0 0 75px $b-plus-color;  &:hover { box-shadow: inset 0 0 75px $b-plus-hover-color }}
+.card.b       { box-shadow: inset 0 0 75px $b-color;       &:hover { box-shadow: inset 0 0 75px $b-hover-color }}
+.card.b-minus { box-shadow: inset 0 0 75px $b-minus-color; &:hover { box-shadow: inset 0 0 75px $b-minus-hover-color }}
+.card.c-plus  { box-shadow: inset 0 0 75px $c-plus-color;  &:hover { box-shadow: inset 0 0 75px $c-plus-hover-color }}
+.card.c       { box-shadow: inset 0 0 75px $c-color;       &:hover { box-shadow: inset 0 0 75px $c-hover-color }}
+.card.c-minus { box-shadow: inset 0 0 75px $c-minus-color; &:hover { box-shadow: inset 0 0 75px $c-minus-hover-color }}
+.card.d-plus  { box-shadow: inset 0 0 75px $d-plus-color;  &:hover { box-shadow: inset 0 0 75px $d-plus-hover-color }}
+.card.d       { box-shadow: inset 0 0 75px $d-color;       &:hover { box-shadow: inset 0 0 75px $d-hover-color }}
+.card.d-minus { box-shadow: inset 0 0 75px $d-minus-color; &:hover { box-shadow: inset 0 0 75px $d-minus-hover-color }}
+.card.f       { box-shadow: inset 0 0 75px $f-color;       &:hover { box-shadow: inset 0 0 75px $f-hover-color}}
