@@ -30,6 +30,7 @@ class SearchBar extends React.Component {
   constructor(props) {
     super(props)
     this.handleFilterTextInputChange = this.handleFilterTextInputChange.bind(this)
+    this.lastInput = new Date().getTime()
   }
 
   handleFilterTextInputChange(e) {
@@ -37,6 +38,7 @@ class SearchBar extends React.Component {
   }
 
   handleKeyPress(e){
+    let inputTime = new Date().getTime()
     if(e.key == 'Escape'){
       // escape clears the input
       this.props.onFilterTextInput('')
@@ -46,6 +48,10 @@ class SearchBar extends React.Component {
       e.preventDefault()
       this.props.onFilterTextInput('') // also clear the input, since usually this means I want to start typing a new card
     }
+    if(inputTime - this.lastInput > 1000){
+      this.props.onFilterTextInput('')
+    }
+    this.lastInput = inputTime
     this.filterInput.focus()
   }
 
