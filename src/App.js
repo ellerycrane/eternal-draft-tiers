@@ -135,15 +135,17 @@ class App extends Component {
   parseRanks(columns) {
     let currentRank = null,
       cardRanks = [],
-      cardNames = []
+      cardNames = [],
+      ignoredNames = ['All Influence Strangers', 'All Banners']
 
     columns.forEach((col, colIdx)=> {
       currentRank = null
       col.forEach((row, rowIdx)=> {
         if (ranks.indexOf(row) !== -1) {
           currentRank = row
-        } else if (row !== null && row !== '' && currentRank !== null && cardNames.indexOf(row) === -1) {
+        } else if (row !== null && row !== '' && currentRank !== null && cardNames.indexOf(row) === -1 && ignoredNames.indexOf(row) === -1) {
           cardRanks.push({cardName: row, rank: currentRank})
+          cardNames.push(row)
         }
       })
     })
@@ -195,7 +197,7 @@ class App extends Component {
     }
     {/*<pre>*/}
           {/*{cssData.map((d)=>{*/}
-            {/*return `.${d.className} {\nbackground-image: url("${d.imageUrl}")\n}\n\n`*/}
+            {/*return `.${d.className} {\nbackground-image: url("${d.imageUrl}");\n}\n\n`*/}
           {/*})}*/}
         {/*</pre>*/}
     // cards = []
@@ -209,6 +211,8 @@ class App extends Component {
         <div className="cards">
           {cards}
         </div>
+
+
       </div>
     )
   }
