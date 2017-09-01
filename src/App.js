@@ -195,7 +195,19 @@ class App extends Component {
         })
       })
     }
-    {/*<pre>*/}
+
+    cssData = cssData.sort( (a, b) => {
+      if (a.className < b.className) {
+        return -1
+      } else if (a.className > b.className) {
+        return 1
+      }
+      return 0
+    })
+    // console.log(cssData.map((d)=> {
+    //   return `.${d.className} {\nbackground-image: url("${d.imageUrl}");\n}\n\n`
+    // }).join(''))
+
           {/*{cssData.map((d)=>{*/}
             {/*return `.${d.className} {\nbackground-image: url("${d.imageUrl}");\n}\n\n`*/}
           {/*})}*/}

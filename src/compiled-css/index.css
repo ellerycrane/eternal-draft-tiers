@@ -61,11 +61,11 @@
 ._alluring-_ember {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Alluring%20Ember.png"); }
 
-._amaran-_camel {
-  background-image: url("http://www.numotgaming.com/cards/images/cards/Amaran Camel.png"); }
-
 ._amaran-_archaeologist {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Amaran Archaeologist.png"); }
+
+._amaran-_camel {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Amaran Camel.png"); }
 
 ._amber-_acolyte {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Amber Acolyte.png"); }
@@ -92,7 +92,7 @@
   background-image: url("http://www.numotgaming.com/cards/images/cards/Ancient Terrazon.png"); }
 
 ._annihilate {
-  background-image: url(http://www.numotgaming.com/cards/images/cards/Annihilate.png); }
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Annihilate.png"); }
 
 ._araktodon {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Araktodon.png); }
@@ -133,6 +133,12 @@
 ._auric-_sentry {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Auric Sentry.png"); }
 
+._auric-_vigilante {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Auric Vigilante.png"); }
+
+._avirax-_familiar {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Avirax Familiar.png"); }
+
 ._awakened-_sentinel- {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Awakened Sentinel.png"); }
 
@@ -149,7 +155,10 @@
   background-image: url("http://www.numotgaming.com/cards/images/cards/Back-Alley Bouncer.png"); }
 
 ._backlash {
-  background-image: url(http://www.numotgaming.com/cards/images/cards/Backlash.png); }
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Backlash.png"); }
+
+._bad-_news {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Bad News.png"); }
 
 ._bandit-_queen {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Bandit Queen.png"); }
@@ -221,7 +230,10 @@
   background-image: url("http://www.numotgaming.com/cards/images/cards/Bold Adventurer.png"); }
 
 ._bolster {
-  background-image: url(http://www.numotgaming.com/cards/images/cards/Bolster.png); }
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Bolster.png"); }
+
+._boltcrafter-_shaman {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Boltcrafter Shaman.png"); }
 
 ._borderlands-_waykeeper {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Borderlands Waykeeper.png"); }
@@ -250,6 +262,9 @@
 ._burn-_out {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Burn Out.png"); }
 
+._burning-_glaive {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Burning Glaive.png"); }
+
 ._cabal-_bludgeoner {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Cabal Bludgeoner.png"); }
 
@@ -277,6 +292,9 @@
 ._call-the-_ancients {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Call the Ancients.png"); }
 
+._camp-_physician {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Camp Physician.png"); }
+
 ._cannonbearer {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Cannonbearer.png); }
 
@@ -303,6 +321,9 @@
 
 ._champion-of-_cunning {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Champion of Cunning.png"); }
+
+._champion-of-_fury {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Champion of Fury.png"); }
 
 ._champion-of-_glory {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Champion of Glory.png"); }
@@ -357,6 +378,9 @@
 
 ._cloud-of-_ash {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Cloud of Ash.png"); }
+
+._cloudsnake-_breeder- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Cloudsnake Breeder.png"); }
 
 ._cloudsnake-_harrier {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Cloudsnake Harrier.png"); }
@@ -436,11 +460,20 @@
 ._crownwatch-_paladin {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Crownwatch Paladin.png"); }
 
+._crownwatch-_press__002d_gang {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Crownwatch Press-Gang.png"); }
+
+._crownwatch-_squire- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Crownwatch Squire.png"); }
+
 ._crystalline-_chalice {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Crystalline Chalice.png"); }
 
 ._crystallize {
-  background-image: url(http://www.numotgaming.com/cards/images/cards/Crystallize.png); }
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Crystallize.png"); }
+
+._cult-_aspirant {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Cult Aspirant.png"); }
 
 ._curiox__002c-the-_collector {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Curiox, the Collector.png"); }
@@ -582,6 +615,9 @@
 
 ._ephemeral-_wisp {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Ephemeral Wisp.png"); }
+
+._evelina__002c-_valley-_searcher {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Evelina, Valley Searcher.png"); }
 
 ._excavate {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Excavate.png); }
@@ -736,6 +772,9 @@
 ._guerrilla-_fighter {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Guerrilla Fighter.png"); }
 
+._gun-_down {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Gun Down.png"); }
+
 ._hair__002d_trigger-_stranger {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Hair-Trigger Stranger.png"); }
 
@@ -802,6 +841,9 @@
 ._horned-_vorlunk {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Horned Vorlunk.png"); }
 
+._horngrinder- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Horngrinder.png"); }
+
 ._horsesnatcher-_bat {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Horsesnatcher Bat.png"); }
 
@@ -827,7 +869,10 @@
   background-image: url(http://www.numotgaming.com/cards/images/cards/Icebow.png); }
 
 ._icebreaker {
-  background-image: url(http://www.numotgaming.com/cards/images/cards/Icebreaker.png); }
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Icebreaker.png"); }
+
+._iceknuckle-_jotun {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Iceknuckle Jotun.png"); }
 
 ._icequake {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Icequake.png); }
@@ -870,6 +915,9 @@
 
 ._jarrall__2019s-_frostkin {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Jarrall%27s Frostkin.png"); }
+
+._jawbone-_hatchet {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Jawbone Hatchet.png"); }
 
 ._jotun-_cyclops {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Jotun Cyclops.png"); }
@@ -916,6 +964,9 @@
 ._lethrai-_falchion {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Lethrai Falchion.png"); }
 
+._lethrai-_memory__002d_keeper- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Lethrai Memory-Keeper.png"); }
+
 ._lethrai-_nightblade {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Lethrai Nightblade.png"); }
 
@@ -942,6 +993,9 @@
 
 ._longhorn-_sergeant {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Longhorn Sergeant.png"); }
+
+._longshot-_marksman- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Longshot Marksman.png"); }
 
 ._loyal-_watchwing {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Loyal Watchwing.png"); }
@@ -990,6 +1044,9 @@
 
 ._means-to-an-_end- {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Means to an End.png"); }
+
+._meditative-_stranger {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Meditative Stranger.png"); }
 
 ._memory-_dredger- {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Memory Dredger.png"); }
@@ -1050,6 +1107,9 @@
 
 ._nightmaw__002c-_sight-_unseen {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Nightmaw, Sight Unseen.png"); }
+
+._noble-_firemane {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Noble Firemane.png"); }
 
 ._north__002d_wind-_herald {
   background-image: url("http://www.numotgaming.com/cards/images/cards/North-Wind Herald.png"); }
@@ -1255,6 +1315,9 @@
 ._rhinarc-_huntpack {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Rhinarc Huntpack.png"); }
 
+._ridgeline-_watcher- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Ridgeline Watcher.png"); }
+
 ._righteous-_fury {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Righteous Fury.png"); }
 
@@ -1300,6 +1363,9 @@
 ._sanctuary-_priest {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Sanctuary Priest.png"); }
 
+._sand-_viper- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Sand Viper.png"); }
+
 ._sand-_warrior {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Sand Warrior.png"); }
 
@@ -1314,6 +1380,9 @@
 
 ._sandstorm-_titan {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Sandstorm Titan.png"); }
+
+._sanguine-_sword {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Sanguine Sword.png"); }
 
 ._sapphire-_dragon {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Sapphire Dragon.png"); }
@@ -1332,6 +1401,9 @@
 
 ._scavenging-_vulture {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Scavenging Vulture.png"); }
+
+._scepter-of-_nobility {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Scepter of Nobility.png"); }
 
 ._scheme {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Scheme.png); }
@@ -1383,6 +1455,9 @@
 
 ._shepherd__0027s-_horn- {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Shepherd%27s Horn.png"); }
+
+._shield-_bash {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Shield Bash.png"); }
 
 ._shimmerpack {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Shimmerpack.png); }
@@ -1459,6 +1534,9 @@
 ._song-of-_war {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Song of War.png"); }
 
+._sorrow__0027s-_shroud {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Sorrow's Shroud.png"); }
+
 ._soul-_collector {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Soul Collector.png"); }
 
@@ -1473,6 +1551,12 @@
 
 ._spell-_swipe {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Spell Swipe.png"); }
+
+._spellshield-_architect {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Spellshield Architect.png"); }
+
+._spiked-_buckler {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Spiked Buckler.png"); }
 
 ._spiked-_helm {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Spiked Helm.png"); }
@@ -1500,6 +1584,9 @@
 
 ._stalwart-_shield {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Stalwart Shield.png"); }
+
+._stalwart-_silverwing {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Stalwart Silverwing.png"); }
 
 ._stand-_together {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Stand Together.png"); }
@@ -1648,6 +1735,9 @@
 ._thunderstrike-_dragon {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Thunderstrike Dragon.png"); }
 
+._thunderhoof-_warrior- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Thunderhoof Warrior.png"); }
+
 ._ticking-_grenadin {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Ticking Grenadin.png"); }
 
@@ -1668,6 +1758,9 @@
 
 ._tock-_tick- {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Tock Tick.png"); }
+
+._topaz-_drake {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Topaz Drake.png"); }
 
 ._torch {
   background-image: url(http://www.numotgaming.com/cards/images/cards/Torch.png); }
@@ -1789,6 +1882,9 @@
 ._venomspine-_hydra {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Venomspine Hydra.png"); }
 
+._victor__0027s-_cry- {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Victor's Cry.png"); }
+
 ._violent-_gust {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Violent Gust.png"); }
 
@@ -1870,8 +1966,14 @@
 ._xenan-_cultist {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Xenan Cultist.png"); }
 
+._xenan-_cupbearer {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Xenan Cupbearer.png"); }
+
 ._xenan-_destroyer {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Xenan Destroyer.png"); }
+
+._xenan-_fanatic {
+  background-image: url("http://www.numotgaming.com/cards/images/cards/Xenan Fanatic.png"); }
 
 ._xenan-_guardian {
   background-image: url("http://www.numotgaming.com/cards/images/cards/Xenan Guardian.png"); }
